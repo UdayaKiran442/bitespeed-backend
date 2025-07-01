@@ -3,6 +3,11 @@
 bun install
 ```
 
+# Deployed link
+https://bitespeed-backend-dl9z.onrender.com
+
+https://bitespeed-backend-dl9z.onrender.com/health-check to check if server is running.
+
 # Secret variables
 - Create .env file in the root directory.
 - Add DATABASE_URL in the .env file.
