@@ -49,6 +49,6 @@ export async function identifyContact(payload: { email: string, phone: string })
         return formatResponse(await fetchContacts(payload));
 
     } catch (error) {
-        console.log(error);
+        throw error;
     }
 }
